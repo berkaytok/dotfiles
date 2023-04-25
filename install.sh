@@ -1,5 +1,5 @@
 #!/bin/sh
-
+sudo chsh "$(id -un)" --shell "/usr/bin/zsh"
 zshrc() {
     echo "==========================================================="
     echo "             cloning zsh-autosuggestions                   "
